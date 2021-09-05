@@ -63,7 +63,10 @@ li {
   font-size: 18px;
   font-weight: 500px;
 }
-.weather-forecast-temperature {
+.weather-forecast-temperatures {
   color: black;
   font-size: 14px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
