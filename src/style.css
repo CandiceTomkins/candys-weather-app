@@ -1,8 +1,38 @@
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  background: #added2;
+  max-width: 600px;
+  border: solid #added2 0.5px;
+  border-radius: 25px;
+}
+
 h1,
 h2,
-ul {
+li {
   font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+  padding-left: 20px;
 }
-ul {
+h2 {
+  font-size: 16px;
+}
+
+ul,
+li {
   list-style-type: none;
+  padding-left: none;
+}
+.temperature {
+  font-size: 75px;
+}
+.small-weather.icon {
+  background-color: white;
+}
+.forecast-time,
+.forecast-temperature {
+  text-align: center;
+  color: black;
+
+  font-family: "Poppins", sans-serif;
 }
