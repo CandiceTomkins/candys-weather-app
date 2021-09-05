@@ -39,6 +39,13 @@ li {
 .temperature {
   font-size: 75px;
 }
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
 
 .forecast-time,
 .forecast-temperature {
