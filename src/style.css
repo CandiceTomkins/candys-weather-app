@@ -1,7 +1,6 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  text-align: left;
   background-color: #fff;
 }
 .container {
@@ -12,13 +11,21 @@ body {
   border: solid #added2 0.5px;
   border-radius: 25px;
 }
+.go-button {
+  color: white;
+  background: #f5bbbf;
+  border: #f5bbbf;
+}
+
+.go-button :hover {
+  color: black;
+  background: #ed462f;
+}
 
 h1,
 h2,
 li {
-  font-family: "Poppins", sans-serif;
   padding-top: 10px;
-  padding-left: 20px;
 }
 .current-date {
   font-size: 16px;
@@ -27,18 +34,14 @@ li {
 ul,
 li {
   list-style-type: none;
-  padding-left: none;
+  text-transform: capitalize;
 }
 .temperature {
   font-size: 75px;
 }
-.small-weather.icon {
-  background-color: white;
-}
+
 .forecast-time,
 .forecast-temperature {
   text-align: center;
   color: black;
-
-  font-family: "Poppins", sans-serif;
 }
