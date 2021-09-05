@@ -52,3 +52,18 @@ li {
   text-align: center;
   color: black;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  color: black;
+  font-size: 18px;
+  font-weight: 500px;
+}
+.weather-forecast-temperature {
+  color: black;
+  font-size: 14px;
+}
