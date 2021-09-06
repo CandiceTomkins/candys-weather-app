@@ -26,8 +26,8 @@ body {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #ed462f;
-  border-color: #ed462f;
+  background-color: #f7b632;
+  border-color: #f7b632;
 }
 
 h1,
@@ -36,7 +36,7 @@ li {
 }
 h1 {
   color: #050708;
-  font-size: 60px;
+  font-size: 50px;
 }
 h2 {
   color: #050708;
@@ -54,13 +54,10 @@ li {
   list-style-type: none;
   text-transform: capitalize;
 }
-.icon {
-  max-width: 36px;
-}
 
 .temperature {
   color: #050708;
-  font-size: 60px;
+  font-size: 50px;
 }
 .units {
   color: #050708;
@@ -72,13 +69,13 @@ li {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 12px;
   text-align: center;
 }
 
 .weather-forecast-date {
   color: #050708;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 500px;
 }
 .weather-forecast-temperatures {
