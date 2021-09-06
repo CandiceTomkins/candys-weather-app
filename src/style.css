@@ -17,9 +17,9 @@ body {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #78afdf;
-  border-color: #78afdf;
+  color: white;
+  background-color: #f5bbbf;
+  border-color: #f5bbbf;
 
   font-size: 12px;
 }
@@ -44,7 +44,7 @@ h1 {
 h2 {
   color: white;
   font-size: 16px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .current-date {
@@ -65,12 +65,12 @@ li {
   font-size: 35px;
 }
 .units {
-  color: #050708;
+  color: #ed462f;
 }
 .forecast-time,
 .forecast-temperature {
   text-align: center;
-  color: #050708;
+  color: white;
 }
 
 .weather-forecast {
@@ -79,12 +79,12 @@ li {
 }
 
 .weather-forecast-date {
-  color: #050708;
+  color: white;
   font-size: 12px;
   font-weight: 500px;
 }
 .weather-forecast-temperatures {
-  color: #050708;
+  color: white;
   font-size: 12px;
 }
 .weather-forecast-temperature-min {
@@ -93,7 +93,7 @@ li {
 h4 {
   font-size: 12px;
   text-align: center;
-  color: #050708;
+  color: white;
   opacity: 0.7;
   padding-top: 40px;
 }
