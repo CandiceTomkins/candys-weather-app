@@ -1,23 +1,33 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background-color: #f5bbbf;
+  background-color: white;
 }
 .container {
   margin: 20px auto;
   padding: 20px;
-  background: #added2;
-  max-width: 800px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(166, 226, 229) 0%,
+    rgb(198, 232, 221) 100.2%
+  );
+  max-width: 600px;
   border: solid #added2 0.5px;
   border-radius: 25px;
 }
-.go-button {
-  background: #f5bbbf;
-  border: none;
+.btn-primary {
+  color: #fff;
+  background-color: #f5bbbf;
+  border-color: #f5bbbf;
 }
-
-.go-button :hover {
-  background: #ed462f;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #ed462f;
+  border-color: #ed462f;
 }
 
 h1,
@@ -25,37 +35,40 @@ li {
   padding-top: 10px;
 }
 h1 {
-  color: #ed462f;
-  font-size: 70px;
+  color: #050708;
+  font-size: 60px;
 }
 h2 {
-  color: #78afdf;
-  font-size: 28px;
+  color: #050708;
+  font-size: 20px;
 }
 
 .current-date {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 ul,
 li {
-  color: white;
+  color: #050708;
   padding-left: 0px;
   list-style-type: none;
   text-transform: capitalize;
 }
+.icon {
+  max-width: 36px;
+}
 
 .temperature {
-  color: #ed462f;
-  font-size: 75px;
+  color: #050708;
+  font-size: 60px;
 }
 .units {
-  color: #ed462f;
+  color: #050708;
 }
 .forecast-time,
 .forecast-temperature {
   text-align: center;
-  color: white;
+  color: #050708;
 }
 
 .weather-forecast {
@@ -64,12 +77,12 @@ li {
 }
 
 .weather-forecast-date {
-  color: white;
+  color: #050708;
   font-size: 18px;
   font-weight: 500px;
 }
 .weather-forecast-temperatures {
-  color: white;
+  color: #050708;
   font-size: 14px;
 }
 .weather-forecast-temperature-min {
@@ -78,7 +91,7 @@ li {
 h4 {
   font-size: 12px;
   text-align: center;
-  color: white;
+  color: #050708;
   opacity: 0.7;
   padding-top: 40px;
 }
