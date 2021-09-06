@@ -22,7 +22,11 @@ h2,
 li {
   padding-top: 10px;
 }
+h1 {
+  color: black;
+}
 h2 {
+  color: black;
   font-size: 18px;
 }
 
